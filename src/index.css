@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", "Arial Narrow";
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    line-height: 100px;
+    background-color: #f5ba13;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    box-shadow: 5px 3px 15px -5px black;
+}
+
+.main_note {
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+.my_notes h1 {
+    color: #34495e;
+}
+
+.my_notes p {
+    color: gray;
+}
+
+.form-wrapper {
+    min-height: 50px;
+    color: white;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 3px 5px 15px -5px rgb(118, 111, 111);
+    border-radius: 10px;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    box-shadow: 3px 5px 5px -5px rgb(136, 131, 71);
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.MuiButton-root {
+    width: 45px;
+    height: 50px;
+    position: absolute;
+    bottom: -16px;
+    left: 435px;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: #fff !important;
+    border-radius: 50%;
+}
+
+.MuiButton-root .plus_sign {
+    width: 40px;
+    height: 45px;
+    color: #f4b400;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.MuiButton-root:hover .plus_sign {
+    color: white;
+    background-color: #ffcd44;
+
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgb(135, 124, 124);
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgb(219, 219, 219);
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note .btn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f27e44;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, alpha);
+}
+
+.deleteIcon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    color: rgb(253, 73, 73);
+    background-color: #fefefe;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 3px 5px 15px -5px black;
+    border-radius: 40%;
+    opacity: 0.5;
+}
+
+.deleteIcon:hover {
+    color: blue;
+    width: 28px;
+    height: 28px;
+    box-shadow: 3px 5px 15px -5px rgb(62, 100, 228);
+}
